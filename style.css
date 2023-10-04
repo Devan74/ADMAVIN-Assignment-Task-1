@@ -1,0 +1,210 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-indent: 0;
+  font-family: "Poppins", sans-serif;
+}
+/* Nav bar */
+
+.header {
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: var(--z-fixed);
+  background: #ebeff7;
+  color: white;
+  box-shadow: 0 1px 4px rgba(146, 161, 176, 0.15);
+}
+.nav_logo {
+  color: #3c64b1;
+  padding: 1rem 2rem;
+  margin: 0 0 2rem 10rem;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav_list {
+  display: flex;
+  justify-content: space-between;
+}
+.nav_link {
+  padding: 1rem 2rem;
+  text-decoration: none;
+  color: black;
+}
+.nav_link:hover {
+  color: #3c64b1;
+}
+button {
+  background-color: #3c64b1;
+  color: #f8f9fc;
+  padding: 1rem 2rem;
+  margin: 1.5rem 10rem 0 0;
+  border: none;
+}
+/* home */
+
+.home {
+  margin: 11rem 0 0 12rem;
+}
+.home-head {
+  color: #373f41;
+  font-weight: 900;
+  font-size: 3rem;
+}
+.home-summary {
+  padding: 3rem 0 1.5rem 0;
+  color: #373f41;
+  font-size: 1.2rem;
+  opacity: 70%;
+}
+.home-img {
+  position: relative;
+  top: -10rem;
+  left: 34rem;
+}
+.home-btn {
+  background-color: #3c64b1;
+  color: #f8f9fc;
+  padding: 1rem 2rem;
+  letter-spacing: 1.5px;
+  border: none;
+}
+.home-card {
+  height: 10rem;
+  width: 30rem;
+}
+
+/* features */
+
+.features-head {
+  font-size: 2.3rem;
+  font-weight: 900;
+  display: flex;
+  justify-content: center;
+  margin: 8rem 0 2rem 0;
+}
+.card {
+  display: flex;
+  flex-wrap: wrap;
+}
+.cards {
+  width: 20rem;
+  height: 10rem;
+  margin: 1rem;
+  text-align: center;
+}
+.card-header {
+  font-size: 1.3rem;
+  font-weight: 700;
+  text-align: center;
+  margin: 12px;
+}
+.card-summary {
+  font-size: 1rem;
+  opacity: 50%;
+}
+.product-img {
+  position: relative;
+  top: -16rem;
+  left: 33rem;
+}
+.features {
+  margin: 12rem;
+}
+
+/* product */
+
+.product-head {
+  font-size: 2.3rem;
+  font-weight: 900;
+  margin: 9rem 0 0 0;
+}
+#Process {
+  margin-left: 15rem 0 5rem 1.8rem;
+  height: 16rem;
+  width: 34rem;
+}
+.product-summary {
+  font-size: 1.3rem;
+  opacity: 50%;
+}
+.product-btn {
+  margin-top: 3.2rem;
+}
+
+/* discover */
+
+.discover-box {
+  display: flex;
+  justify-content: end;
+  margin-right: 13rem;
+}
+.discover-img {
+  position: relative;
+  top: -16rem;
+  left: 8rem;
+  width: 35rem;
+}
+.Discover {
+  display: flex;
+  justify-content: end;
+  flex-wrap: wrap;
+  width: 50%;
+  height: 50%;
+}
+.discover-card {
+  width: 16rem;
+  height: 7rem;
+}
+.discover-summary {
+  font-size: 1.1rem;
+  opacity: 50%;
+}
+
+/* feedback  */
+
+.feedback {
+  background: #ebeff7;
+  height: 22rem;
+  display: flex;
+  justify-content: center;
+}
+.feedback-head {
+  font-size: 2.3rem;
+  font-weight: 900;
+  margin: 4rem 0 2.5rem 0;
+}
+.feedback-summary {
+  font-size: 1.2rem;
+  opacity: 50%;
+}
+.feedback-btn {
+  margin: 1rem;
+}
+.feedback-box {
+  width: 22rem;
+  text-align: center;
+}
+
+/* footer */
+
+footer {
+  background-color: #373f41;
+  color: #b7bfc1;
+  text-align: center;
+  height: 2rem;
+  padding: 1rem;
+}
+
+/* font awesome icons */
+
+i {
+  color: #3c64b1;
+  font-size: 2rem;
+  padding: 0.5rem;
+}
